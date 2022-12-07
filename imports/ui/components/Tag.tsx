@@ -1,13 +1,16 @@
 import React from "react";
+import { ColorType, TagColor } from "/types/color";
 
 export interface TagProps {
   className?: string;
+  color: ColorType;
   label: string;
 }
 
-function Tag({ className = "relative", label }: TagProps) {
-  const CLASS = `bg-primary-200 text-primary-700 inline-flex px-2.5 py-1 rounded-full font-medium text-xs items-center space-x-4 ${className}`;
-  console.log(CLASS);
+function Tag({ className = "relative", label, color }: TagProps) {
+  const COLOR_CLASS = TagColor[color];
+  const CLASS = `py-1 px-3 w-fit text-xs md:text-sm rounded-full ${COLOR_CLASS} ${className}`;
+
   if (label?.length === 0) return <></>;
   return <span className={CLASS}>{label}</span>;
 }
