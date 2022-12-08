@@ -9,7 +9,7 @@ export interface TagProps {
 
 function Tag({ className = "relative", label, color }: TagProps) {
   const COLOR_CLASS = TagColor[color];
-  const CLASS = `py-1 px-3 w-fit text-xs md:text-sm rounded-full ${COLOR_CLASS} ${className}`;
+  const CLASS = `py-1 px-3 w-fit text-xs md:text-sm rounded-full flex justify-center ${COLOR_CLASS} ${className}`;
 
   if (label?.length === 0) return <></>;
   return <span className={CLASS}>{label}</span>;

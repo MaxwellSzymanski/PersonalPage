@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "4400:3000"
+      - "3550:3000"
     depends_on:
       - mongo
     environment:
@@ -22,7 +22,7 @@ services:
     command:
       - --storageEngine=wiredTiger
     volumes:
-      - data:/data/db
+      - maxwell:/data/db
 
 volumes:
-  data:
+  maxwell:

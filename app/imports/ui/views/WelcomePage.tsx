@@ -38,7 +38,8 @@ function WelcomePage() {
               <span className="font-semibold text-primary-500">developing</span>{" "}
               full-stack web platforms, and{" "}
               <span className="font-semibold text-primary-500">designing</span>{" "}
-              user-centered applications (quite a mouthful).
+              user-centered applications (quite a mouthful, huh?). Feel free to
+              reach out down below!
             </p>
             <div className="flex gap-2 mt-4">
               <Tag label="Recommender Systems" color="blue" />

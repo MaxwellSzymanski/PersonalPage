@@ -73,14 +73,15 @@ function TwipePage() {
             <Tag label="Interactive ML" color="yellow" />
           </div>
           <p className="mt-4 mb-8 text-base text-slate-500 md:text-lg dark:text-slate-300">
-            Within this research project, work was done on digital solutions to
-            support employees with pain complaints to learn to better deal with
-            the complaints and to eliminate absenteeism due to pain complaints.
-            Pain complaints are a socially relevant problem, with 60% of Belgian
-            employees having pain complaints, and 33% of long-term absenteeism
-            being caused by these complaints. Digital solutions can help gather
-            information, and stimulate behavioral change, with our solution
-            being a smartphone application to monitoring and coaching employees.
+            Together with a news publishing partner, I set out to investigate
+            how to improve their current predictive models by focussing on
+            transparency and explainability. An interactive machine learning
+            platform was developed on top of their existing systems in order to
+            explain the underlying machine learning methods to relevant
+            stakeholders. We also set out to explore different explanation
+            modalities to see what works best for stakeholders of varying levels
+            of expertise. Interesting results came about regarding user
+            cognitive biases when it comes to explainable AI (see paper below).
           </p>
           <LinkButton
             title="Paper: Visual, textual or hybrid: the effect of user expertise on different explanations"

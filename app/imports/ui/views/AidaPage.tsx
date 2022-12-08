@@ -42,18 +42,18 @@ function AidaPage() {
             Engaging and motivating students to learn math
           </h3>
           <div className="flex gap-2 my-2">
-            <Tag label="Media" color="purple" />
-            <Tag label="Interactive ML" color="yellow" />
+            <Tag label="Education" color="blue" />
+            <Tag label="Explaining Recommendations" color="orange" />
           </div>
           <p className="mt-4 mb-8 text-base text-slate-500 md:text-lg dark:text-slate-300">
-            Within this research project, work was done on digital solutions to
-            support employees with pain complaints to learn to better deal with
-            the complaints and to eliminate absenteeism due to pain complaints.
-            Pain complaints are a socially relevant problem, with 60% of Belgian
-            employees having pain complaints, and 33% of long-term absenteeism
-            being caused by these complaints. Digital solutions can help gather
-            information, and stimulate behavioral change, with our solution
-            being a smartphone application to monitoring and coaching employees.
+            This project focused on student engagement and motivation when it
+            comes to smart online learning platforms. We developed a platform
+            that enables students to solve math exercises, and investigated how
+            different designs and AI explanations can impact student's trust,
+            motivation and engagement. We took inspiration from related
+            research, and investigated the effects of using motivational "wise
+            feedback", showing visual "what-if" explanations, as well as adding
+            a form of control over the system.
           </p>
           <LinkButton
             title="Website: AIDA Wiski Platform"

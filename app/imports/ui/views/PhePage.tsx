@@ -48,14 +48,15 @@ function PhePage() {
             <Tag label="Explaining Recommendations" color="orange" />
           </div>
           <p className="mt-4 mb-8 text-base text-slate-500 md:text-lg dark:text-slate-300">
-            Within this research project, work was done on digital solutions to
-            support employees with pain complaints to learn to better deal with
-            the complaints and to eliminate absenteeism due to pain complaints.
-            Pain complaints are a socially relevant problem, with 60% of Belgian
-            employees having pain complaints, and 33% of long-term absenteeism
-            being caused by these complaints. Digital solutions can help gather
-            information, and stimulate behavioral change, with our solution
-            being a smartphone application to monitoring and coaching employees.
+            Within this European research project, work was done on digital
+            solutions to support employees with pain complaints to learn to
+            better deal with the complaints and to eliminate absenteeism due to
+            pain complaints. Pain complaints are a socially relevant problem,
+            with 60% of Belgian employees having pain complaints, and 33% of
+            long-term absenteeism being caused by these complaints. We developed
+            a smartphone application as a digital solution to help gather
+            information through questionnaires, and stimulate behavioral change
+            through exercises and interactive modules.
           </p>
           <LinkButton
             title="Paper: Explaining Health Recommendations to Lay Users: The Dos and Dont's."

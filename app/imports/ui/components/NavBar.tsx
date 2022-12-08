@@ -50,16 +50,16 @@ function NavBar() {
     return (
       <div
         id="smallnavbar"
-        className="fixed z-40 p-2 md:p-4 transition-all rounded-full shadow-lg top-[-50px] right-5 md:right-10 bg-white cursor-pointer border-4 border-slate-100 dark:border-slate-700 dark:bg-slate-800 duration-300"
+        className="fixed z-40 p-2 md:p-4 transition-all rounded-full shadow-lg top-[-50px] right-5 md:right-10 bg-slate-50 cursor-pointer border-4 border-slate-200 dark:border-slate-700 dark:bg-slate-800 duration-300"
         onClick={() => showNavBar()}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          strokeWidth={1.5}
+          strokeWidth={2}
           stroke="currentColor"
-          className="w-6 h-6 text-slate-600 dark:text-slate-200"
+          className="w-6 h-6 text-slate-500 dark:text-slate-200"
         >
           <path
             strokeLinecap="round"
@@ -71,18 +71,20 @@ function NavBar() {
     );
   }
 
-  const ACTIVE_CLASS = "text-primary-600 dark:text-primary-500";
-  const INACTIVE_CLASS = "text-slate-600 dark:text-slate-200";
+  const ACTIVE_CLASS =
+    "text-primary-600 dark:text-primary-500 hover:text-primary-700 dark:hover:text-primary-600";
+  const INACTIVE_CLASS =
+    "text-slate-600 dark:text-slate-200 hover:texy-slate-700 dark:hover:text-primary-300";
 
   function renderFullNavBar() {
     return (
       <div
         id="fullnavbar"
-        className="fixed top-0 left-0 z-50 flex justify-center w-full transition-all duration-300 bg-white border-b-2 border-slate-100 dark:bg-slate-800 dark:border-slate-700"
+        className="fixed top-0 left-0 z-50 flex justify-center w-full transition-all duration-300 bg-white border-b-2 border-slate-200 dark:bg-slate-800 dark:border-slate-700"
       >
-        <nav className="relative flex items-center justify-between gap-10 px-4 py-4">
+        <nav className="relative flex items-center justify-between gap-4 px-4 py-4 md:gap-10">
           <button
-            className={`px-4 py-2 font-bold bg-white dark:bg-slate-800  rounded-xl ${
+            className={`px-4 py-2 font-bold bg-white dark:bg-slate-800 rounded-xl ${
               getCurrentPosition("welcome") ? ACTIVE_CLASS : INACTIVE_CLASS
             }`}
             onClick={() => scrollTo("welcome")}
