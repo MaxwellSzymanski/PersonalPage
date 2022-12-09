@@ -15,11 +15,14 @@ function TwipePage() {
 
         <div className="flex flex-col md:flex-row">
           <Parallax className="w-5/6 md:w-1/2" speed={10}>
-            <img src="/twipe/screen.png" className="object-fill shadow-2xl" />
+            <img
+              src="/twipe/screen.png"
+              className="object-fill shadow-2xl dark:brightness-[90%]"
+            />
           </Parallax>
           <div className="flex flex-col items-center justify-center w-full md:w-1/2">
             <Parallax speed={10}>
-              <div className="max-w-sm p-8 ml-2 mr-24 text-sm text-purple-600 border-2 border-purple-100 shadow-lg md:text-base lg:text-lg xl:text-xl bg-purple-50 rounded-2xl dark:text-purple-200 dark:bg-purple-600 dark:border-purple-700">
+              <div className="max-w-sm p-8 ml-2 mr-24 text-sm text-purple-600 border-2 border-purple-100 shadow-lg md:text-base lg:text-lg xl:text-xl bg-purple-50 rounded-2xl dark:text-purple-100 dark:bg-purple-600 dark:border-purple-700 opacity-70">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -39,7 +42,7 @@ function TwipePage() {
               </div>
             </Parallax>
             <Parallax speed={5}>
-              <div className="max-w-sm p-8 m-8 text-sm text-purple-600 border-2 border-purple-100 shadow-lg md:text-base lg:text-lg xl:text-xl bg-purple-50 rounded-2xl dark:text-purple-200 dark:bg-purple-600 dark:border-purple-700">
+              <div className="max-w-sm p-8 m-8 text-sm text-purple-600 border-2 border-purple-100 shadow-lg md:text-base lg:text-lg xl:text-xl bg-purple-50 rounded-2xl dark:text-purple-100 dark:bg-purple-600 dark:border-purple-700 opacity-70">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -58,7 +61,7 @@ function TwipePage() {
       </section>
       <section className="flex flex-col items-center px-8 mb-12 lg:px-16 2xl:px-60 md:flex-row">
         <img
-          className="w-2/3 max-w-lg mx-12 mb-12 shadow-xl md:w-1/2 lg:w-1/3 rounded-xl aspect-auto md:mb-0"
+          className="w-2/3 max-w-lg mx-12 mb-12 shadow-xl md:w-1/2 lg:w-1/3 rounded-xl aspect-auto md:mb-0 dark:brightness-[95%]"
           src="/twipe/paper.png"
         />
         <div>
@@ -68,7 +71,7 @@ function TwipePage() {
           <h3 className="text-xl text-slate-500 text-semibold dark:text-slate-300">
             Making news RS explainable and transparent for end users
           </h3>
-          <div className="flex gap-2 my-2">
+          <div className="flex flex-wrap gap-2 my-2">
             <Tag label="Media" color="purple" />
             <Tag label="Interactive ML" color="yellow" />
           </div>

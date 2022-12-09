@@ -5,7 +5,8 @@ import Tag from "../components/Tag";
 
 function PhePage() {
   const GRID_COL_CLASS = "flex flex-col gap-10 xl:gap-20";
-  const IMG_CLASS = "rounded-lg shadow-lg border border-primary-100";
+  const IMG_CLASS =
+    "rounded-lg shadow-lg border border-primary-100 dark:brightness-[90%]";
   return (
     <ParallaxProvider>
       <section className="w-full p-10 pb-20 md:pb-40">
@@ -33,7 +34,7 @@ function PhePage() {
       </section>
       <section className="flex flex-col items-center px-8 mb-12 lg:px-16 2xl:px-60 md:flex-row">
         <img
-          className="object-contain w-1/2 max-w-md mx-12 mb-8 shadow-xl lg:w-1/3 rounded-xl md:mb-0"
+          className="object-contain w-1/2 max-w-md mx-12 mb-8 shadow-xl lg:w-1/3 rounded-xl md:mb-0 dark:brightness-[90%]"
           src="/phe/painlogbook-recs.png"
         />
         <div>
@@ -43,7 +44,7 @@ function PhePage() {
           <h3 className="text-xl text-slate-500 text-semibold dark:text-slate-300">
             Coaching and supporting users with chronic muskuloskeletal pain
           </h3>
-          <div className="flex gap-2 my-2">
+          <div className="flex flex-wrap gap-2 my-2">
             <Tag label="Health" color="blue" />
             <Tag label="Explaining Recommendations" color="orange" />
           </div>
